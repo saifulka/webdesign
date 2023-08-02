@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Country and Capital</title>
+</head>
+<body>
+    <h1>Select a Country</h1>
+    <select id="countrySelect" onchange="updateCapital()">
+        <option value="">Select a country...</option>
+        <option value="USA">United States of America</option>
+        <option value="UK">United Kingdom</option>
+        <option value="France">France</option>
+        <option value="Germany">Germany</option>
+        <option value="Japan">Japan</option>
+    </select>
+
+    <p id="capitalText"></p>
+
+    <script>
+        function updateCapital() {
+            var countrySelect = document.getElementById("countrySelect");
+            var selectedCountry = countrySelect.options[countrySelect.selectedIndex].value;
+            var capitalText = document.getElementById("capitalText");
+
+            if (selectedCountry === "USA") {
+                capitalText.innerHTML = "Capital: Washington, D.C.";
+            } else if (selectedCountry === "UK") {
+                capitalText.innerHTML = "Capital: London";
+            } else if (selectedCountry === "France") {
+                capitalText.innerHTML = "Capital: Paris";
+            } else if (selectedCountry === "Germany") {
+                capitalText.innerHTML = "Capital: Berlin";
+            } else if (selectedCountry === "Japan") {
+                capitalText.innerHTML = "Capital: Tokyo";
+            } else {
+                capitalText.innerHTML = ""; // If no country is selected or an invalid option is selected, clear the capital text.
+            }
+        }
+    </script>
+</body>
+</html>
