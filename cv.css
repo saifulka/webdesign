@@ -13,13 +13,13 @@ body {
 .main-column {
     flex: 2;
     padding: 20px;
-    background-color: #b4cdc9;
+    background-color: #a5ec2a;
 }
 
 .navigation-column {
     flex: 1;
     padding: 20px;
-    background-color: #008080;
+    background-color: hsl(45, 79%, 46%);
     color: #fff;
 }
 
@@ -46,7 +46,7 @@ th, td {
 }
 
 th {
-    background-color: #008080;
+    background-color: #800009;
     color: #fff;
 }
 
@@ -72,5 +72,5 @@ a {
 }
 
 a:hover {
-    background-color: #005757;
+    background-color: #310057;
 }
