@@ -1,0 +1,19 @@
+/* styles.css */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #6e62dc;
+    margin: 10px;
+    text-align: center;
+    background-color: aquamarine;
+  }
+  p{
+    color: #e11717;
+  }
+  

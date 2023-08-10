@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="q3.css">
+  <title>Image Gallery</title>
+</head>
+<body>
+  <div class="gallery">
+    <label for="lightbox-toggle-1">
+      <img src="image1.jpg" alt="Image 1">
+    </label>
+    <input type="checkbox" id="lightbox-toggle-1" class="lightbox-toggle">
+    
+    <label for="lightbox-toggle-2">
+      <img src="image2.jpg" alt="Image 2">
+    </label>
+    <input type="checkbox" id="lightbox-toggle-2" class="lightbox-toggle">
+    
+    <label for="lightbox-toggle-3">
+      <img src="image3.jpg" alt="Image 3">
+    </label>
+    <input type="checkbox" id="lightbox-toggle-3" class="lightbox-toggle">
+  </div>
+
+  <div class="lightbox">
+    <label for="lightbox-toggle-1" class="lightbox-close">&times;</label>
+    <input type="checkbox" id="lightbox-toggle-1" class="lightbox-toggle">
+    <div class="lightbox-content">
+      <img src="image1.jpg" alt="Image 1">
+    </div>
+    
+    <label for="lightbox-toggle-2" class="lightbox-close">&times;</label>
+    <input type="checkbox" id="lightbox-toggle-2" class="lightbox-toggle">
+    <div class="lightbox-content">
+      <img src="image2.jpg" alt="Image 2">
+    </div>
+    
+    <label for="lightbox-toggle-3" class="lightbox-close">&times;</label>
+    <input type="checkbox" id="lightbox-toggle-3" class="lightbox-toggle">
+    <div class="lightbox-content">
+      <img src="image3.jpg" alt="Image 3">
+    </div>
+  </div>
+</body>
+</html>

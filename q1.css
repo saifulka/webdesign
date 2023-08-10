@@ -1,0 +1,22 @@
+/* styles.css */
+
+/* Set background color */
+body {
+    background-color: #2dda3e;
+  }
+  
+  /* Style headings */
+  h1, h2, h3 {
+    color: #db1c1c;
+  }
+  
+  /* Set font size for paragraphs */
+  p {
+    font-size: 16px;
+  }
+  
+  /* Set text color for links */
+  a {
+    color: #007bff;
+  }
+  
